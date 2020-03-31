@@ -73,7 +73,7 @@ let bank =
         {
             id: 7,
             soal: "Kendaraan tidak bisa jalan jika banya.....",
-            clue: "K _ _ _ _ _ _",
+            clue: "K _ _ _ _ _",
             clueIndex: 0,
             jawaban: "KORANG",
             penjelasan: "Macet dong kalo banyakorang"
