@@ -193,7 +193,7 @@ function generateSoal(selectedID){
         let inputJawaban = document.createElement('input');
         inputJawaban.setAttribute('id', 'input');
         inputJawaban.setAttribute('type', 'text');
-        inputJawaban.setAttribute('placeholder', 'huruf kecil ga masalah');
+        inputJawaban.setAttribute('placeholder', 'huruf gede/kecil/campur boleh');
         pJawaban.appendChild(inputJawaban);
         // let buttonSubmit = document.createElement('button');
         // buttonSubmit.setAttribute('id','submit')
