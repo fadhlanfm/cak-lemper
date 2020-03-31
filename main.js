@@ -106,13 +106,11 @@ let bank =
 
 let butirPeraturan = 
     [
-        "Kerahkan seluruh kecerdasan Anda",
         "10 soal akan dihadapkan kepada Anda", 
-        "Setiap 1 soal, Anda hanya memiliki 3 kali kesempatan untuk menjawab",
+        "Setiap soal, terdiri dari 3 kali kesempatan untuk menjawab",
         "Untuk mempermudah, Anda akan diberi petunjuk berupa: jumlah karakter dan 1 huruf bantuan",
-        "Tekan tombol huruf yang tersedia untuk mengisi garis kosong", 
         "Tekan submit jika Anda sudah yakin dengan jawaban Anda", 
-        "Ingat, sebelum submit, pastikan Anda sudah memakai seluruh kecerdasan Anda dalam menjawab"
+        "Ingat, sebelum submit, pastikan Anda sudah yakin dengan jawaban Anda"
     ]
 
 var jumlahBenar = 0
