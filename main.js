@@ -220,7 +220,7 @@ function generateSoal(selectedID){
         let thanks = document.createElement('p');
         thanks.setAttribute('id', 'a');
         divThanks.appendChild(thanks);
-        let thanksText = '<p>Terimakasih</p><p>Score anda: '+jumlahBenar+'/10</p><p>Silahkan share game ini, tapi jangan kasih tau jawabannya ya</p><p><strong>Terimakasih dan Sehat Selalu</strong></p>'
+        let thanksText = '<p>Terimakasih</p><p>Score anda: '+jumlahBenar+'/10</p><p>Silahkan share game ini, tapi jangan kasih tau jawabannya ya</p><p><strong>Terimakasih dan Sehat Selalu</strong></p><p><small>Soal-soal diambil dari WIB NETTV</small></p>'
         document.getElementById('a').innerHTML = thanksText;
     }
     
@@ -238,7 +238,7 @@ function submit(selectedID){
     let answer = document.getElementById("input").value.toUpperCase();
     
     if(answer===''){
-        alert('Isi dulu kali')
+        alert('Isi dulu keleus')
     }else{
         if(answer.length!==key.length){
             alert('Jumlah karakternya: '+key.length)
@@ -250,7 +250,7 @@ function submit(selectedID){
                 if(key==answer){
                     jumlahBenar++
                     selectedID++
-                    alert('Ciee beneeer.\nSoal: '+soal+'\n'+clue+'\n'+'Jawaban: '+key+'\n'+penjelasan)
+                    alert('Cie bener.\nSoal: '+soal+'\n'+clue+'\n'+'Jawaban: '+key+'\n'+penjelasan)
                     jumlahKesempatan=3
                     body.removeChild(papan);
                     generateSoal(selectedID)
@@ -259,14 +259,14 @@ function submit(selectedID){
                         jumlahKesempatan--
                         document.getElementById("idP").innerHTML = 'Sisa kesempatan: '+jumlahKesempatan;
                         selectedID++
-                        alert('Soal: '+soal+'\n'+clue+'\n'+'Jawaban: '+key+'\n'+penjelasan+'\nLebih cerdas lagi ya di soal selanjutnya')
+                        alert('Soal: '+soal+'\n'+clue+'\n'+'Jawaban: '+key+'\n'+penjelasan+'\nLebih semangat lagi ya')
                         jumlahKesempatan=3
                         body.removeChild(papan);
                         generateSoal(selectedID)
                     }else{
                         jumlahKesempatan--
                         document.getElementById("idP").innerHTML = 'Sisa kesempatan: '+jumlahKesempatan;
-                        alert('Salah. Sabarr coba lagi yuk bisa yuk')
+                        alert('Salah. Coba lagi yuk bisa yuk')
                     }
                 }
             }
