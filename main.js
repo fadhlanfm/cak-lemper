@@ -81,7 +81,7 @@ let bank =
         {
             id: 8,
             soal: "Mas kawin dibayar .....",
-            clue: "_ U _ _ _ _",
+            clue: "_ U _ _ _",
             clueIndex: 1,
             jawaban: "SUAMI",
             penjelasan: "Masa dibayar penghulu"
