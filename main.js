@@ -220,7 +220,7 @@ function generateSoal(selectedID){
         let thanks = document.createElement('p');
         thanks.setAttribute('id', 'a');
         divThanks.appendChild(thanks);
-        let thanksText = '<p>Terimakasih</p><p>Score anda: '+jumlahBenar+'/10</p><p>Silahkan share game ini, tapi jangan kasih tau jawabannya ya</p><p><strong>Terimakasih dan Sehat Selalu</strong></p><p><small>Soal-soal diambil dari WIB NETTV</small></p>'
+        let thanksText = '<p>Terimakasih</p><p>Score anda: '+jumlahBenar+'/10</p><strong>Terimakasih dan Sehat Selalu</strong></p><p><small>Soal-soal diambil dari WIB NETTV</small></p>'
         document.getElementById('a').innerHTML = thanksText;
     }
     
