@@ -107,14 +107,14 @@ let bank =
 let butirPeraturan = 
     [
         "10 soal akan dihadapkan kepada Anda", 
-        "Setiap soal, terdiri dari 3 kali kesempatan untuk menjawab",
+        "Setiap soal, terdiri dari 2 kali kesempatan untuk menjawab",
         "Untuk mempermudah, Anda akan diberi petunjuk berupa: jumlah karakter dan 1 huruf bantuan",
         "Tekan submit jika Anda sudah yakin dengan jawaban Anda", 
         "Ingat, sebelum submit, pastikan Anda sudah yakin dengan jawaban Anda"
     ]
 
 var jumlahBenar = 0
-var jumlahKesempatan = 3
+var jumlahKesempatan = 2
 var selectedID = 0
 
 function plusOne(variable){
